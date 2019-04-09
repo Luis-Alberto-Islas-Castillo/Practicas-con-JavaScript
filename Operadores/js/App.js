@@ -25,3 +25,14 @@ console.log(`El incremento: `+ datoA + ` es igual a: `, incremento);
 var decremento = datoA;
 decremento--;
 console.log(`El decremento: `+ datoA + ` es igual a: `, decremento);
+
+//Operadores relacionales
+
+var datoC = 34;
+var datoD = 56;
+
+var mayorQue = datoC > datoD;
+console.log("Es "+ datoC + " mayor que " + datoD + ": " + mayorQue);
+
+var menorQue = datoC < datoD;
+console.log("Es "+ datoC + " mayor que " + datoD + ": " + menorQue);
