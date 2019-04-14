@@ -36,3 +36,14 @@ console.log("Es "+ datoC + " mayor que " + datoD + ": " + mayorQue);
 
 var menorQue = datoC < datoD;
 console.log("Es "+ datoC + " mayor que " + datoD + ": " + menorQue);
+
+// Operadores Logicos
+
+var dato1 = 20;
+var dato2 = 30;
+
+var and = (dato1 > 10 && dato2 > 10)
+console.log("El resultado de AND es: " + and);
+
+var or = (dato1 > 10 || dato2 > 10)
+console.log("El resultado de Or es: " + or);
