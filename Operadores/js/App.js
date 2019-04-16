@@ -47,3 +47,10 @@ console.log("El resultado de AND es: " + and);
 
 var or = (dato1 > 10 || dato2 > 10)
 console.log("El resultado de Or es: " + or);
+
+// Operadores de Asignacion
+
+var dadoasig = 23;
+
+var igual = dadoasig;
+console.log("El resultado de la asignacion es: "+ igual);
