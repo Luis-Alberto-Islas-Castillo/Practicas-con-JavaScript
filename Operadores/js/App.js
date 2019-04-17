@@ -54,3 +54,15 @@ var dadoasig = 23;
 
 var igual = dadoasig;
 console.log("El resultado de la asignacion es: "+ igual);
+
+var masIgual = 56;
+masIgual += dadoasig;
+console.log("El resiltado es +=: "+ masIgual);
+
+// Operadores de Concatenacion
+
+var nombre = "Luis";
+var apellido = "Islas";
+
+var concatTexto = nombre + " " + apellido ;
+console.log("Los textos "+ nombre +" y "+ apellido +" se unen para formar: ", concatTexto);
