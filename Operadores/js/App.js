@@ -66,3 +66,6 @@ var apellido = "Islas";
 
 var concatTexto = nombre + " " + apellido ;
 console.log("Los textos "+ nombre +" y "+ apellido +" se unen para formar: ", concatTexto);
+
+var concatTexto = nombre + " " + apellido ;
+console.log("Los textos "+ nombre +" y "+ apellido +" se unen para formar: ", concatTexto);
