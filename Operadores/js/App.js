@@ -69,3 +69,8 @@ console.log("Los textos "+ nombre +" y "+ apellido +" se unen para formar: ", co
 
 var concatTexto = nombre + " " + apellido ;
 console.log("Los textos "+ nombre +" y "+ apellido +" se unen para formar: ", concatTexto);
+
+//Operador Ternario.
+
+var resultado = dato3 > dato4 ?"Si es mayor" : "No es mayor";
+console.log("El resultado es: ", resultado);
