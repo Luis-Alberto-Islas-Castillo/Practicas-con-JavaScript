@@ -74,3 +74,14 @@ console.log("Los textos "+ nombre +" y "+ apellido +" se unen para formar: ", co
 
 var resultado = dato3 > dato4 ?"Si es mayor" : "No es mayor";
 console.log("El resultado es: ", resultado);
+
+// Operador de tipo de dato.
+
+var datoboleano = 20;
+console.log(typeof datoboleano);
+
+var datotexto = "luis";
+console.log(typeof datotexto);
+
+var datotrue = true;
+console.log(typeof datotrue);
