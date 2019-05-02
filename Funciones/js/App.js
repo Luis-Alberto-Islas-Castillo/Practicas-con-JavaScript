@@ -6,6 +6,7 @@ function saludar(){
 }
 saludar();
 
+//parametros de una funcion.
 
 function parametros(nombre, edad) {
     console.log('Nombre: ', nombre);
@@ -15,3 +16,10 @@ function parametros(nombre, edad) {
 }
 var mensaje = parametros('Luis', 21);
 console.log(mensaje);
+
+// Inicializacion de parametros 
+
+function contar (cantidad=23){
+    console.log('Total',cantidad);
+}
+contar(123);
