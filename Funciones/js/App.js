@@ -23,3 +23,10 @@ function contar (cantidad=23){
     console.log('Total',cantidad);
 }
 contar(123);
+
+// Funciones Anonimas.
+
+var notificacion = function(nombre){
+    var notificacion = "Hola " + nombre;
+    return notificacion;
+}
