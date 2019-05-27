@@ -30,3 +30,8 @@ var notificacion = function(nombre){
     var notificacion = "Hola " + nombre;
     return notificacion;
 }
+
+// Funcion Arrow
+
+var despedida = persona => "Adios" + persona;
+console.log(despedida(" Luis"));
