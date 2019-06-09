@@ -35,3 +35,14 @@ var notificacion = function(nombre){
 
 var despedida = persona => "Adios" + persona;
 console.log(despedida(" Luis"));
+
+// Callbacks
+
+function calcular(datoA, datoB, sumarCB, restarCB) {
+    var suma = datoA + datoB
+    var restar = datoA - datoB;
+
+    sumarCB(suma);
+    restarCB(restar);
+}
+
